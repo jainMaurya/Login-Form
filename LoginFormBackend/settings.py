@@ -43,6 +43,9 @@ INSTALLED_APPS = [
     'corsheaders',
     'user_management'
 ]
+EXTERNAL_APPS=['form_maker']
+
+INSTALLED_APPS+=EXTERNAL_APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
